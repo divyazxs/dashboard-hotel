@@ -47,7 +47,7 @@ st.markdown(
 
 
 # Load dataset
-df = pd.read_csv(r"D:/SEMESTER 6/PPYTHON/DASHBOARD/hotel_booking.csv")
+df = pd.read_csv(r"hotel_booking.csv")
 
 #Processing data
 df['total_nights'] = df['stays_in_weekend_nights'] + df['stays_in_week_nights']
