@@ -2,6 +2,7 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import calendar
 
 # Set the page configuration
 custom_theme = {
