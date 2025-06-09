@@ -171,7 +171,7 @@ with st.sidebar:
 
     st.markdown(
     "<p style='text-align: justify; color: #888888; font-size: 14px;'>"
-    "*) Untuk tampilan terbaik, disarankan menggunakan <b>tema browser Dark Mode</b> agar seluruh elemen visual pada dashboard terlihat optimal dan nyaman dilihat."
+    "*) Untuk tampilan terbaik, disarankan menggunakan <b>tema browser Dark Mode</b>"
     "</p>",
     unsafe_allow_html=True
     )
