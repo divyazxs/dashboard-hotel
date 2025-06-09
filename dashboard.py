@@ -126,7 +126,7 @@ st.markdown(
 # === LOAD DATA ===
 @st.cache_data
 def load_data():
-    df = pd.read_csv('hotel_booking.csv')
+    df = pd.read_csv('/content/hotel_booking.csv')
     df['total_nights'] = df['stays_in_weekend_nights'] + df['stays_in_week_nights']
     df['total_revenue'] = df['adr'] * df['total_nights']
     return df
@@ -167,13 +167,6 @@ with st.sidebar:
     st.markdown(
         "<p style='text-align: center; color: #AAAAAA;'>Hotel Analytics</p>",
         unsafe_allow_html=True
-    )
-
-    st.markdown(
-    "<p style='text-align: justify; color: #888888; font-size: 14px;'>"
-    "*) Untuk tampilan terbaik, disarankan menggunakan <b>tema browser Dark Mode</b>"
-    "</p>",
-    unsafe_allow_html=True
     )
 
 # === DATA FILTERING ===
