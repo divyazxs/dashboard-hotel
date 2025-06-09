@@ -169,6 +169,13 @@ with st.sidebar:
         unsafe_allow_html=True
     )
 
+    st.markdown(
+    "<p style='text-align: center; color: #888888; font-size: 14px;'>"
+    "Untuk tampilan terbaik, disarankan menggunakan <b>tema browser Dark Mode</b>."
+    "</p>",
+    unsafe_allow_html=True
+    )
+
 # === DATA FILTERING ===
 filtered_df = df[
     (df['arrival_date_year'] >= year_range[0]) &
